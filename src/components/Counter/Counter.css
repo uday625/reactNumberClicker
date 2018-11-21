@@ -1,0 +1,20 @@
+.Counter {
+    height: 300px;
+    width: 300px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.TickerDisplay {
+   height: 200px; 
+   font-size: 6rem;
+   font-weight: 300;
+   line-height: 1.9;
+   margin: auto;
+   color: red;
+    
+}
+
+.Buttons{
+    height: 100px;
+}
