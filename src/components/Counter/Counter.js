@@ -1,4 +1,5 @@
 import React, {Fragment} from 'react';
+import PropTypes from 'prop-types';
 import './Counter.css';
 
 
@@ -20,5 +21,11 @@ const Counter = (props) => {
         </Fragment>
     );
 }
+
+
+Counter.propTypes = {
+    ticker: PropTypes.number.isRequired
+}
+
  
 export default Counter;
